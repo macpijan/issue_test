@@ -1,0 +1,34 @@
+name: Bug Report
+
+about: Create a bug report to help us improve
+
+title: ''
+
+labels: # Define label configurations
+  Platform1:
+    description: Issue related to Platform1
+  Platform2:
+    description: Issue related to Platform2
+  Platform3:
+    description: Issue related to Platform3
+  # Add more labels for other hardware platforms as needed
+
+assignees:
+  - ''
+
+body:
+  - type: dropdown
+    id: hardware_platform
+    attributes:
+      label: Hardware Platform
+      options:
+        - Platform1
+        - Platform2
+        - Platform3
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe the bug here...
